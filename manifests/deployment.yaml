@@ -4,7 +4,7 @@ metadata:
   name: nginx-demo
   namespace: xbjoch
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
@@ -30,5 +30,5 @@ spec:
   ports:
   - name: http
     protocol: TCP
-    port: 80
+    port: 8080
     targetPort: 80
