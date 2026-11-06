@@ -10,7 +10,7 @@ spec:
       app: nginx
   template:
     metadata:
-      label: 
+      labels: 
         app: nginx
     spec:
       containers:
