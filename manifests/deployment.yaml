@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-demo
-  namespace: christian
+  namespace: xbjoch
 spec:
   replicas: 1
   selector:
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service 
 metadata: 
-  namespace: christian
+  namespace: xbjoch
   name: nginx-service
 spec:
   selector:
